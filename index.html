@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heapsort & Quicksort</title>
+  </head>
+  <body>
+    <h1>Heapsort & Quicksort</h1>
+    <div class="heap">
+      <h2>Heapsort</h2>
+      <div class="heap_title">
+        Números gerados: <span class="heap_title_array"></span>
+      </div>
+      <div class="heap_body">
+        Ordenados pelo Heapsort:<span class="heap_body_array"></span>
+      </div>
+      <div class="heap_code"></div>
+      <button onclick="restartHeap();" class="heap_button">
+        Restart
+      </button>
+      <h3><a href="js/heap.js">Algoritmo Heapsort</a></h3>
+    </div>
+    <div class="quick">
+      <h2>Quicksort</h2>
+      <div class="quick_title">
+        Números gerados: <span class="quick_title_array"></span>
+      </div>
+      <div class="quick_body">
+        Ordenados pelo quicksort:<span class="quick_body_array"></span>
+      </div>
+      <button onclick="restartQuick();" class="quick_button">
+        Restart
+      </button>
+      <h3><a href="js/quick.js">Algoritmo Quicksort</a></h3>
+    </div>
+    <script src="js/heap.js"></script>
+    <script src="js/quick.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
